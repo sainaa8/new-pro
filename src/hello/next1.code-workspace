@@ -1,0 +1,18 @@
+{
+  "folders": [
+	{
+		"name": "next1",
+		"path": "../../../../git/java1/next1"
+	},
+	{
+		"name": "reactlearn",
+		"path": "../../.."
+	},
+	{
+		"path": "../../../../git/java1/toDo"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "toDo"
+  }
+}
