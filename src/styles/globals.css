@@ -1,21 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+/* body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-
+.box {
+  margin-top: 50px;
+  width: 800px;
+  height: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  box-shadow: 10px 10px 50px 50px rgb(10, 152, 200);
+}
+.black {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+}
+.white {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(203, 159, 159);
+} */
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: aliceblue;
+}
+#one {
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  border: 0.5px solid rgb(227, 224, 224);
+  border-radius: 6px;
+}
+#two {
+  width: 350px;
+  height: 50px;
+  padding-left: 20px;
+  border: 0.5px solid rgb(227, 224, 224);
+  border-radius: 6px;
+  margin-top: 15px;
+}
+.container {
+  width: 400px;
+  height: 380px;
+  box-shadow: "2px 2px 30px 2px red";
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: white;
+  padding-top: 20px;
+}
+.logIn {
+  width: 350px;
+  height: 50px;
+  background-color: rgb(36, 120, 247);
+  border-radius: 6px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.forgetPass {
+  font-size: 16px;
+  margin-top: 20px;
+}
+hr {
+  width: 350px;
+  margin-top: 30px;
+}
+.forgetPass:hover {
+  text-decoration: underline;
+  color: rgb(0, 128, 255);
+}
+.button {
+  width: 250px;
+  height: 60px;
+  background-color: rgb(11, 208, 11);
+  border-radius: 6px;
+  margin-top: 23px;
+  color: white;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
