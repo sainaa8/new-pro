@@ -1,0 +1,10 @@
+/* .login{
+    background-color: "bg";
+    height: "height";
+    width: "width";
+} */
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

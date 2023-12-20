@@ -1,7 +1,13 @@
-const Number = () => {
+import inputCss from "@/styles/input.module.css";
+const Number = (props) => {
+  const { placeholder } = props;
   return (
     <div>
-      <input id="one" placeholder="Email address or phone number" />
+      <input
+        style={{ fontFamily: "roboto" }}
+        className={inputCss.one}
+        placeholder={placeholder}
+      />
     </div>
   );
 };

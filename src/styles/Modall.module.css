@@ -1,0 +1,35 @@
+.container {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 5px 8px 20px 3px grey;
+  border-radius: 6px;
+
+  position: relative;
+}
+.con {
+  padding: 10px;
+}
+.bottomDiv {
+  width: 100%;
+  height: 300px;
+  padding: 10px;
+  border-top: 0.5px solid rgb(138, 137, 137);
+}
+.topInputs {
+  display: flex;
+  gap: 20px;
+}
+.inputAss {
+  border: 0.3px solid grey;
+  border-radius: 5px;
+  padding-left: 14px;
+  background-color: rgb(247, 249, 251);
+}
+.bottomInputs {
+  margin-top: 20px;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
