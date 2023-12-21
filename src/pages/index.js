@@ -9,7 +9,7 @@ import Desc from "@/hello/Description";
 import Link from "next/link";
 export default function Home() {
   return (
-    <div>
+    <div class="layout">
       <div class="facebook">
         <Desc text={"Facebook"} txtcolor="blue" Fsize="40px" />
         <Desc
@@ -55,3 +55,49 @@ export default function Home() {
     </div>
   );
 }
+// import Image from "next/image";
+// import BigCss from "@/styles/InstaR.module.css";
+// import Instagram from "@/hello/InstaR";
+// const coms = [
+//   { component: "Instagram", pars: { imgsrc: "/home.png", text: "Home" } },
+//   { component: "Instagram", pars: { imgsrc: "/search.png", text: "Search" } },
+//   { component: "Instagram", pars: { imgsrc: "/ex2.png", text: "Explore" } },
+//   { component: "Instagram", pars: { imgsrc: "/reels.png", text: "Reels" } },
+//   { component: "Instagram", pars: { imgsrc: "/mes.png", text: "Messeges" } },
+//   {
+//     component: "Instagram",
+//     pars: { imgsrc: "/love.png", text: "Notification" },
+//   },
+//   { component: "Instagram", pars: { imgsrc: "/plus.png", text: "Create" } },
+//   { component: "Instagram", pars: { imgsrc: "/itachi.jpeg", text: "Profile" } },
+// ];
+// const com2 = [
+//   { component: "Instagram", pars: { imgsrc: "/fuck.png", text: "Threads" } },
+//   { component: "Instagram", pars: { imgsrc: "/more.png", text: "More" } },
+// ];
+
+// export default function Home() {
+//   return (
+//     <div className={BigCss.body}>
+//       <div className={BigCss.container}>
+//         <div>
+//           <Image src="/insta.png" width={150} height={50} alt="logo" />
+//         </div>
+//         <div className={BigCss.middleBG}>
+//           {coms.map((el, i) => {
+//             return (
+//               <Instagram key={i} imgsrc={el.pars.imgsrc} text={el.pars.text} />
+//             );
+//           })}
+//         </div>
+//         <div className={BigCss.fuck}>
+//           {com2.map((el, i) => {
+//             return (
+//               <Instagram key={i} imgsrc={el.pars.imgsrc} text={el.pars.text} />
+//             );
+//           })}
+//         </div>
+//       </div>
+//     </div>
+//   );
+// }

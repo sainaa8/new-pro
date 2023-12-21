@@ -1,0 +1,32 @@
+.container {
+  width: 400px;
+  height: 100vh;
+  border-right: 1px solid black;
+}
+.body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  background-color: #fcfbfb;
+  padding: 40px;
+}
+.middle {
+  display: flex;
+  gap: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+.middleBG {
+  margin-top: 80px;
+  gap: 30px;
+
+  display: flex;
+  flex-direction: column;
+}
+.fuck {
+  margin-top: 100px;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+}

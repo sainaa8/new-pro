@@ -1,0 +1,21 @@
+.selected {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  padding-left: 10px;
+}
+.parentOfSelect {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.month {
+  width: 120px;
+  height: 40px;
+  background-color: white;
+  border: 0.5px solid grey;
+  border-radius: 6px;
+  padding-left: 10px;
+}
